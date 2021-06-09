@@ -69,12 +69,14 @@ class Keyboard extends React.Component {
         {this.getMidiNumbers().map((midiNumber) => {
           const { note, isAccidental } = MidiNumbers.getAttributes(midiNumber);
           const isActive = !this.props.disabled && this.props.activeNotes.includes(midiNumber);
+          const activeKeyIndex = isActive ? this.props.activeNotes.indexOf(midiNumber) : -1;
           return (
             <Key
               naturalKeyWidth={naturalKeyWidth}
               midiNumber={midiNumber}
               noteRange={this.props.noteRange}
               active={isActive}
+              activeKeyIndex={activeKeyIndex}
               accidental={isAccidental}
               disabled={this.props.disabled}
               onPlayNoteInput={this.props.onPlayNoteInput}
