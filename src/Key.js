@@ -12,7 +12,7 @@ class Key extends React.Component {
     useTouchEvents: PropTypes.bool.isRequired,
     accidental: PropTypes.bool.isRequired,
     active: PropTypes.bool.isRequired,
-    activeKeyIndex: PropTypes.bool.isRequired,
+    activeKeyIndex: PropTypes.number.isRequired,
     disabled: PropTypes.bool.isRequired,
     onPlayNoteInput: PropTypes.func.isRequired,
     onStopNoteInput: PropTypes.func.isRequired,
