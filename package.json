@@ -1,7 +1,7 @@
 {
-  "name": "react-piano",
+  "name": "react-piano-active-keys",
   "version": "3.1.3",
-  "description": "A responsive, customizable react piano keyboard component",
+  "description": "For private use - Forked from react-piano by Kevin Qi <iqnivek@gmail.com>",
   "main": "dist/react-piano.cjs.js",
   "module": "dist/react-piano.esm.js",
   "unpkg": "dist/react-piano.umd.js",
