@@ -71,5 +71,8 @@
     "just-range": "^2.1.0",
     "lodash.difference": "^4.5.0",
     "prop-types": "^15.6.2"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   }
 }
